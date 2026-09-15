@@ -1,0 +1,32 @@
+#cards {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.card {
+   background-color: white;
+   padding: 20px;
+   width:30%;
+   border-radius: 20px;
+   text-align: center;
+   border: 1px solid #eee;
+}
+
+.card h2 {
+   margin: 10px 0;
+   font-size: 20px;
+}
+
+.card img {
+   width: 100%;
+   border-radius: 20px;
+   object-fit: cover;
+   height: 700px;
+   object-position: top;
+   background-color: rgb (230, 230, 230);
+}
+
+
