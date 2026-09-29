@@ -1,18 +1,14 @@
 * {
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff0f5;
-    color: black;
+    padding: 0;
     margin: 0;
 }
+
 
 header {
     background-color: #d87093;
     color: black;
-    padding: 15px 7%;
+    padding: 20px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,59 +26,33 @@ header section {
 }
 
 header a {
-    background-color: #17466f;
+    background-color: #9e2379;
     color: black;
-    padding: 8px 12px;
+    padding: 8px ;
     border-radius: 5px;
     font-size: 11px;
 }
 
-header.ativo {
-    background-color: #ffcf28;
+header {
+    background-color: #ff2889;
     color: #10253d;
-}
-
-
-/* inicio */
-
-#inicio {
-    background-color: #fff0f5;
-    color: black;
-    padding: 45px 7%;
-    display: flex;
+     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
 }
 
-#inicio article {
-    width: 50%;
-}
 
-#inicio article:first-child p:first-child {
-    color:#ffcf28;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
 
 #inicio h2 {
-    color: black;
+    color: rgb(2, 2, 2);
     font-size: 38px;
-    margin: 10px 0;
+    margin: 10px;
+
 }
 
-#inicio h2 strong {
-    color: palevioletred;
-    display: block;
-    font-size: italic;
-}
 
-#inicio article p {
-    font-size:13px;
-}
-
-#inicio article a {
+#inicio section{
     display: inline-block;
     background-color: palevioletred;
     color: black;
@@ -94,23 +64,16 @@ header.ativo {
     margin-top: 10px;
 }
 
-#inicio article a + a {
-    background-color: #21499b;
-    color:black;
+
+
+#inicio {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: pink;
 }
 
-/*imagem */
-
-#inicio article: :last-child {
-    text-align: center;
-}
-
-#inicio img {
-    width: 100%;
-    height: 270px;
-    object-fit: cover;
-    border-radius: 15px;
-}
 
 
 #destaques {
@@ -121,18 +84,18 @@ header.ativo {
     gap: 12px;
 }
 
-#destaques > p {
+#destaques p {
     width: 100%;
-    color: pink;
+    color: rgb(236, 77, 161);
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 1px;
     margin: 0;
 }
 
-#destaques > h2 {
+#destaques h2 {
     width: 100%;
-    color: pink;
+    color: rgb(236, 77, 161);
     font-size: 22px;
     margin-top: 0;
 }
@@ -151,7 +114,7 @@ header.ativo {
     color: white;
 }
 
-#destaques article h3:first-child {
+#destaques article h3{
     color:#d87093;
     font-size: 20px;
 }
@@ -167,7 +130,7 @@ main {
 }
 
 section {
-    padding: 45 7%;
+    padding: 45;
 }
 
 h2 {
@@ -190,7 +153,7 @@ img {
 footer {
     background-color: #d87093;
     color: white;
-    padding: 18px 7%;
+    padding: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,10 +165,10 @@ footer p{
 }
 
 footer a {
-    background-color: #ffcf28;
+    background-color: #ff28a9;
     color: #10253d;
     text-decoration: none;
-    padding: 9px 12px;
+    padding: 9px;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -214,10 +177,14 @@ footer a {
 
 main a {
     display: inline-block;
-    background-color: #ffcf28;
+    background-color: #ba3091;
     color: #10253d;
-    padding: 10px 15px;
+    padding: 10px ;
     border-radius: 5px;
     text-decoration: none;
     margin-right: 5px;
+}
+
+h4 {
+    align-items: center;
 }
