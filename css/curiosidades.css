@@ -1,0 +1,118 @@
+
+body {
+    background-color: #ffe4ec;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    font-size: 12px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#menu a {
+    background-color:palevioletred;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+#introducao {
+    background-color: palevioletred;
+    color: black;
+    padding:  20px;
+}
+
+#introducao span {
+    color: palevioletred;
+}
+
+#curiosidades {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+#img-curiosidades {
+    width: 50%;
+    text-align: center;
+}
+
+#img-curiosidades img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#cards {
+    width:50%;
+}
+
+#cards h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer {
+    color: pink;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#menu-final a {
+    background-color: #f74780;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+#titulo2 span {
+    color: black;
+}
