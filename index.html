@@ -3,73 +3,86 @@
     <head>
         <meta charset="UTF-8" />
         <title>Princesas Disney</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <header>
-            <section class="cabecalho">
-                <section class="logo">
-                <span>Princesas Disney</span>
-                <h1>As Melhores Princesas</h1>
-                <a href="index.html">Início</a>
-                <a href="pages/personagens.html">Princesas</a>
-                <a href="pages/curiosidades.html">curiosidades</a>
-                <a href="#destaques">Ir para destaques </a>
+            <section id="titulo">
+                <p><b>Universo Disney</b></p>
+                <h1>Reino das Princesas</h1>
+            </section>
+
+            <section id="menu">
+                <p><b><a href="index.html" id="tela-atual">Início</a></b></p>
+                <p><b><a href="pages/personagens.html">Princesas</a></b></p>
+                <p><b><a href="pages/curiosidades.html">Curiosidades</a></b></p>
+            </section>
+
+            <section id="ir-para-destaque">
+                <p><b><a href="#destaque">Ir para destaque</a></b></p>
+            </section>
+        </header>
+
+        <main>
+            <section id="introducao">
+                <article id="titulo2">
+                    <p><b>Quando os contos de fadas ganham vida, eles se unem.</b></p>
+                    <h2>Conheça as princesas da Disney</h2>
+                    <p id="texto">Descubra histórias cheias de magia, coragem e sonhos.</p>
+
+                    <article id="botao">
+                        <p><b><a href="pages/personagens.html" id="tecla">Conhecer Princesas</a></b></p>
+                        <p><b><a href="pages/curiosidades.html">Explorar curiosidades</a></b></p>
+                    </article>
+                </article>
+
+                <article id="fundo-img">
+                    <img src="img/image.png" alt="Imagem de várias princesas" />
+                    <p><b>Juntas, elas são ainda mais mágicas!</b></p>
+                </article>
+            </section>
+
+            <section id="destaque">
+                <section id="Por que elas são especiais?">
+                    <article id="titulo2">
+                        <p><b>Por que elas são especiais?</b></p>
+                        <h3>Mais fortes quando estão juntas</h3>
+                    </article>
                 </section>
-           </header>
-           <main>
-            <section id="inicio">
-                <article>
-                    <p>PRINCESAS DISNEY - UM MUNDO DE MAGIA</p>
-                        <h2>Quando a magia começa, <strong>elas brilham.</strong></h2>
-                        <p>Conheça algumas das princesas mais famosas da Disney e descubra suas histórias, aventuras e características.</p>
-                </article>
-            <section>
-                <h2>Quer conhecer mais?</h2>
-                <p>Veja a página com todas as princesas e confira algumas curiosidades sobre elas.</p>
-                <a href="pages/personagens.html">Conhecer as Princesas</a>
-                <a href="pages/curiosidades.html">Explorar Curiosidades</a>
-            </article>
-            <article>
-                <img src="img/princesas.png" alt="Princesas da Disney"
-                <p>Um mundo de histórias e magia.</p>
-            </article>
+
+                <section id="cards">
+                    <article class="card">
+                        <h4>Coragem</h4>
+                        <p>Elas enfrentam desafios e provam que são capazes de superar qualquert obstáculo.</p>
+                    </article>
+
+                    <article class="card">
+                        <h4>Uma equipe mágica</h4>
+                        <p>Cada princesa tem uma história única, mas todas ensinam importantes lições.</p>
+                    </article>
+
+                    <article class="card">
+                        <h4>Legado duradouro</h4>
+                        <p>Suas histórias inspiram gerações com mensagens de amizade, esperança e determinação.</p>
+                    </article>
+                </section>
             </section>
 
-            <section id="destaques">
-                <p>POR QUE ELAS SÃO ESPECIAIS?</p>
-                <h2>O que torna as princesas inesquecíveis?</h2>
-                <article>
-                    <h3>✨</h3>
-                    <h3>Coragem</h3>
-                    <p>Princesas que enfrentam desafios e acreditam em seus próprios sonhos.</p>
-                </article>
-
-                <article>
-                    <h3>🤩</h3>
-                    <h3>Histórias marcantes</h3>
-                    <p>Aventuras que conquistaram gerações e continuam encantando até hoje.</p>
-                </article>
-
-                <article>
-                    <h3>⚡</h3>
-                    <h3>Magia</h3>
-                    <p>Mundos mágicos, amizades e momentos que fazem cada história ser especial.</p>
-                </article>
+            <section id="chamada-princesas">
+                <p><b>Hora de descobrir mais</b></p>
+                <h5>Pronto para conhecer cada princesa?</h5>
+                <p><a href="pages/personagens.html" id="pagina-princesas">Ver todas as princesas</a></p>
             </section>
+        </main>
 
-            <section id="convite">
-                <p>UNIVERSO DAS PRINCESAS</p>
-                <h2>Pronto(a) para conhecer cada princesa?</h2>
-                <a href="pages/personagens.html">Ver todas as princesas &#8594;</a>
+        <footer>
+            <section id="footer">
+                <p>Minissite desenvolvido para a prática de HTML e CSS.</p>
             </section>
-           </main>
-           <footer>
-            <p>Minissite desenvolvido para a prática de HTML e CSS.</p>
-            <section>
-                <a href="https://princess.disney.com/" target="_blank">Site oficial da Disney</a>
-                <a href="assets/arquivos/guia-princesas.txt">Baixar guia das princesas &#8595;</a>
+            <section id="menu-final">
+                <p><a href="https://www.google.com/aclk?sa=L&ai=DChsSEwj74onRu5eXAxUuTEgAHc4ADxIYACICCAEQAhoCY2U&ae=2&aspm=1&co=1&ase=2&gclid=Cj0KCQjw5vLVBhCiARIsAD56SFJMDQkxmMGnke77eolfghv_R9WJ0s30GQl0DowokZY1Tw5OCkyqrskaAt8_EALw_wcB&cid=CAASuwHkaLsHSbUnV8RgeG-diIepuWUVmZef0MV9S3aMiHjVv_xZ8srIDf9Ur4clzSZNHPZFhzKQ0IJilF6R69VsP0-6NUtpcYePiTCU1FKgJzwpMg0ko_cbwURZDJzGBEkKS_tieadj1GKqX9b-tG1clhtEmpchzGtQrbo_g-9-taWyccA1EPKIZgv_XvCIpH6ww4BBlO-6Hq95oap_RXLYmXXNLoTQfsVoAQUc8t0Qs2q0IeO46ib_piMpBiDr&cce=2&category=acrcp_v1_35&sig=AOD64_0IzD2r_io3hSf5DICfq1rBQ5J6QQ&q&nis=4&adurl&ved=2ahUKEwiKrITRu5eXAxUWALkGHYc3KU8Q0Qx6BAgbEAE">Site oficial da Disney</a></p>
+                <p><a href="assets/guiaprincesas.txt">Bixar guia das princesas</a></p>
             </section>
-           </footer>
-</body>
+        </footer>
+    </body>
 </html>
