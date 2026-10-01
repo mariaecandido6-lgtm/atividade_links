@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 
 body {
     background-color: #ffe4ec;
+=======
+body {
+    background-color: #ffbae2;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     font-family: 'Times New Roman', Times, serif;
 }
 
 header {
+<<<<<<< HEAD
     background-color: pink;
     color: black;
+=======
+    background-color: #f59ccd;
+    color: #071f3a;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -28,6 +38,7 @@ header p {
 }
 
 #menu a {
+<<<<<<< HEAD
     background-color:palevioletred;
     padding: 5px;
     border-radius: 8px;
@@ -38,16 +49,37 @@ header p {
 #introducao {
     background-color: palevioletred;
     color: black;
+=======
+    background-color:#ad0d7a;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #f42bbb;
+}
+
+#introducao {
+    background-color: #d776ae;
+    color: white;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     padding:  20px;
 }
 
 #introducao span {
+<<<<<<< HEAD
     color: palevioletred;
 }
 
 #curiosidades {
     background-color: pink;
     color: black;
+=======
+    color: #f3a2e1;
+}
+
+#curiosidades {
+    background-color: white;
+    color: #ad0d7a;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     padding: 20px;
     margin: 20px;
     display: flex;
@@ -76,7 +108,11 @@ header p {
 }
 
 .card {
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #ca208c8f;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     color: black;
     padding: 10px;
     border-radius: 20px;
@@ -84,7 +120,11 @@ header p {
 }
 
 footer {
+<<<<<<< HEAD
     background-color: pink;
+=======
+    background-color: #071f3a;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -93,7 +133,11 @@ footer {
 }
 
 #footer {
+<<<<<<< HEAD
     color: pink;
+=======
+    color: #e194c3;
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
 }
 
 #menu-final {
@@ -106,6 +150,7 @@ footer {
 }
 
 #menu-final a {
+<<<<<<< HEAD
     background-color: #f74780;
     padding: 5px;
     border-radius: 8px;
@@ -116,3 +161,11 @@ footer {
 #titulo2 span {
     color: black;
 }
+=======
+    background-color: #c243ad;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #e665a1;
+}
+>>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
