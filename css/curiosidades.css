@@ -8,8 +8,6 @@ header {
 
     background-color: pink;
     color: black;
-    background-color: #f59ccd;
-    color: #071f3a;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -31,7 +29,6 @@ header p {
 }
 
 #menu a {
-
     background-color:palevioletred;
     padding: 5px;
     border-radius: 8px;
@@ -39,15 +36,6 @@ header p {
     color: black;
 }
 
-#introducao {
-    background-color: palevioletred;
-    color: black;
-    background-color:#ad0d7a;
-    padding: 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #f42bbb;
-}
 
 #introducao {
     background-color: #d776ae;
@@ -59,11 +47,6 @@ header p {
     color: palevioletred;
 }
 
-#curiosidades {
-    background-color: pink;
-    color: black;
-    color: #f3a2e1;
-}
 
 #curiosidades {
     background-color: white;

@@ -1,63 +1,23 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-<<<<<<< HEAD
+    box-sizing:border-box;
 }
 
 body {
-    background-color: #ffe4ec;
+    background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-=======
-    padding: 0;
-    margin: 0;
->>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
 }
 
-
 header {
-    background-color: pink;
+    background-color: palevioletred;
     color: black;
-<<<<<<< HEAD
     padding: 20px;
     display: flex;
-=======
-    padding: 20px ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 70px;
-}
-
-header h1 {
-    font-size: 17px;
-    margin: 0;
-}
-
-header section {
-    display: flex;
-    gap: 5px;
-}
-
-header a {
-    background-color: #9e2379;
-    color: black;
-    padding: 8px ;
-    border-radius: 5px;
-    font-size: 11px;
-}
-
-header {
-    background-color: #ff2889;
-    color: #10253d;
-     display: flex;
->>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
-<<<<<<< HEAD
 header p {
     font-size: 15px;
 }
@@ -68,91 +28,27 @@ header p {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 16px;
-    width: 33%;
+    gap: 15px;
+    width: 30%;
 }
 
 #titulo {
-    width: 33%;
+    width: 30%;
 }
 
 #introducao {
-    background-color: palevioletred;
+    background-color: pink;
     color: black;
     display: flex;
     flex-direction: row;
     gap: 30px;
-=======
-
-
-#inicio h2 {
-    color: rgb(2, 2, 2);
-    font-size: 38px;
-    margin: 10px;
-
-}
-
-
-#inicio section{
-    display: inline-block;
-    background-color: palevioletred;
-    color: black;
-    text-decoration: none;
-    padding: 10px 14px;
-    border-radius: 5px;
-    font-size: 11px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-
-
-#inicio {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    padding: 25px;
-    background-color: pink;
-}
-
-
-
-#destaques {
-    padding: 45px 7%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-}
-
-#destaques p {
-    width: 100%;
-    color: rgb(236, 77, 161);
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 0;
-}
-
-#destaques h2 {
-    width: 100%;
-    color: rgb(236, 77, 161);
-    font-size: 22px;
-    margin-top: 0;
-}
-
-#destaques article {
-    background-color: white;
-    width: 31%;
-    min-height: 130px;
->>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
-    padding: 20px;
+    padding:20px;
     align-items: center;
     justify-content: space-between;
 }
 
-#intoducao h2 {
-    font-size: 60px;
+#introducao h2 {
+    font-size: 50px;
 }
 
 #texto {
@@ -161,14 +57,29 @@ header p {
 
 #introducao img {
     width: 500px;
-    height: 300px;
+    height: 250px;
     border-radius: 20px;
     margin-bottom: 15px;
 }
 
 #introducao a {
-    background-color: antiquewhite;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 6px ;
+    text-decoration: none;
+    color: black;
+}
+
+#fundo-img p {
+    background-color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    color: black
+}
+
+#menu a {
+    background-color: pink;
+    padding: 5px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
@@ -176,38 +87,13 @@ header p {
 
 #botao {
     display: flex;
-    gap: 15px;
+    gap: 16px;
     margin-top: 20px;
 }
 
-#fundo-img p {
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-#menu a {
-    background-color: #f74780;
-    padding: 5px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-<<<<<<< HEAD
 #destaque {
-    padding: 50px;
-    color: #f74780;
-}
-
-#porqueelassaoespeciais {
-    margin-bottom: 20px;
+    padding: 40px;
     color: black;
-}
-
-#porqueelassaoespeciais {
-    color:#f74780
 }
 
 #cards {
@@ -216,8 +102,7 @@ header p {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 20px;
-
+    gap: 16px;
 }
 
 .card {
@@ -229,68 +114,32 @@ header p {
 }
 
 .card h4 {
-=======
-#destaques article h3{
-    color:#d87093;
->>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
     font-size: 20px;
 }
 
 #chamada-princesas {
     background-color: palevioletred;
-    padding: 30px;
     text-align: center;
+    padding: 30px;
+    color: black
 }
 
-#chamada-princesas h5 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-<<<<<<< HEAD
-#pagina-princesas {
+#paginas-princesas {
+    background-color: pink;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
-    background-color: #f74780;
     color: black;
-    padding:5px
 }
 
-footer {
+#footer {
+    color: black;
     background-color: pink;
     padding: 20px;
-=======
-section {
-    padding: 45;
-}
-
-h2 {
-    margin-top: 0;
-    color: #123d70;
-}
-
-h3 {
-    color: #123d70;
-}
-
-p {
-    line-height: 1.5;
-}
-
-img {
-    max-width: 100%;
-}
-
-footer {
-    background-color: #d87093;
-    color: white;
-    padding: 18px;
->>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    display: flex;
 }
 
 #menu-final {
@@ -298,41 +147,22 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap:nowrap;
-    gap:20px
+    flex-wrap: nowrap;
+    gap: 16px
 }
 
-<<<<<<< HEAD
 #menu-final a {
+    background-color: aliceblue;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     color: black;
-    background-color: #f74780;
 }
-=======
-footer a {
-    background-color: #ff28a9;
-    color: #10253d;
+
+#convite {
+    border-radius: 8px;
     text-decoration: none;
-    padding: 9px;
-    border-radius: 5px;
-    font-weight: bold;
+    color: black;
+    background-color: pink;
 }
 
-/* botoes */
-
-main a {
-    display: inline-block;
-    background-color: #ba3091;
-    color: #10253d;
-    padding: 10px ;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-right: 5px;
-}
-
-h4 {
-    align-items: center;
-}
->>>>>>> 0dfa5f7c9fe48373ff9738268c1dc95afa585ad5
